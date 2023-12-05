@@ -1,0 +1,28 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.links{
+    margin: 20px;
+    padding: 20px;
+}
+
+.container{
+    padding: 20px;
+    text-align: center;
+}
+
+.gray-bar{
+    background-color: #aa9c9c;
+    height: 50px;
+    width: 95%;
+    text-align: center;
+    margin: 30px;
+    
+}
+
+.info{
+    margin: 20px;
+    padding: 20px;  
+}

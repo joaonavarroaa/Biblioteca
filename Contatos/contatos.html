@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contato.css">
+    <title>Contatos</title>
+</head>
+
+<body></body>
+<section class="info1">
+    <div class="conteudo">
+        <h1>Fundamentos da Web</h1>
+        <p>Laboratório - 22/09/23</p>
+</section>
+
+<div class="gray-bar"><a href="../Página principal/pagina.html" class="color">Retornar</a></div>
+
+<section class="info2">
+    <div class="conteudo">
+        <h1>Contatos</h1>
+        <p>Exercício</p>
+    </div>
+</section>
+
+<section>
+    <form action="">
+        <fieldset class="form">
+            <legend>Contatos</legend>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <br>
+            <label for="subject">Assunto:</label>
+            <input type="text" id="subject" name="subject" required>
+            <br>
+            <br>
+            <label for="date">Data de Ocorrência:</label>
+            <input type="date" id="date" name="date" required>
+            <br>
+            <br>
+            <label for="photo">Foto da Ocorrência:</label>
+            <input type="file" id="photo" name="photo">
+            <br>
+            <br>
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <br>
+            <br>
+            <label for="style">Estilo</label>
+            <select id="style" name="style">
+                <option value="opcao1">Livros</option>
+                <option value="opcao2">Estrutura</option>
+                <option value="opcao3">Albúns</option>
+            </select>
+
+            <div class="button-container">
+                <button type="button" onclick="adicionar()">Adicionar</button>
+                <button type="button" onclick="limpar()">Limpar</button>
+            </div>
+        </fieldset>
+    </form>
+</section>
+
+
+<div class="gray-bar"></div>
+
+
+</body>
+
+</html>
