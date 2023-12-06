@@ -11,4 +11,4 @@ Curso: Informática
 Ensino fundamental: Completo
 Ensino médio: incompleto, por enquanto
 
-# Esse foi o primeiro projeto concreto e meio-funcional feito por João Pedro, seu intuito é continuar nessa carreira.
+--> Esse foi o primeiro projeto concreto e meio-funcional feito por João Pedro, seu intuito é continuar nessa carreira.
